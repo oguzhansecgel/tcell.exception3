@@ -1,4 +1,4 @@
-package org.turcell.tcell.exception.exceptions.details;
+package org.turkcell.tcell.exception.exceptions.details;
 
 public class BusinessExceptionDetails extends ProblemDetails{
     public BusinessExceptionDetails() {
