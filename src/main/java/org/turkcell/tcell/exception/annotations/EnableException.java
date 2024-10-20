@@ -8,6 +8,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@ComponentScan(basePackages = {"org.turkcell.tcell.exception"}) // ana proje dışarısında ki başka paket taraması amacıyla
+@ComponentScan(basePackages = {"org.turkcell.tcell.exception"})
 public @interface EnableException {
 }

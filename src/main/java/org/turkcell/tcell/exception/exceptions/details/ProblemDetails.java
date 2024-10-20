@@ -8,5 +8,5 @@ import lombok.*;
 @ToString
 public class ProblemDetails {
     private String title;
-    private String detail;
+    private String message;
 }
